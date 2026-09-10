@@ -158,7 +158,7 @@ def calcola_risultato(chat_id):
 
     user_state.pop(chat_id, None)
 
-@app.route("/", methods=["POST"])
+@app.route("/", methods=["GET", "POST", "HEAD"])
 def webhook():
     data = request.get_json()
 
