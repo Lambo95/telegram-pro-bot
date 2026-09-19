@@ -19,7 +19,7 @@ def calcola_pnl(stake, quota_puntata, lay_stake, quota_bancata):
 
 def suggerimento_operazione(quota_puntata, quota_bancata):
     if quota_bancata > quota_puntata:
-        return "📉 La quota è salita: meglio BANCHARE per limitare la perdita."
+        return "📉 La quota è salita: meglio BANCARE per limitare la perdita."
     else:
         return "📈 La quota è scesa: meglio PUNTARE per aumentare il profitto."
 
